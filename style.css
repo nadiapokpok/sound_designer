@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items:start;
+}
+
+.card1, .card2 .card3, .card4{
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    text-align: center;
+}
+
+#modal{
+    display: none;
+    top: 30%;
+    left: 30%;
+    width: 35%;
+    height: 25%;
+    position: fixed;
+    border: 3px solid black;
+    background-color: darkorange;
+}
+
+p{
+    text-align-last: center;
+}
+
+.btn1{
+    margin-left: 40%;
+    margin-top: 30px; 
+
+}
+
